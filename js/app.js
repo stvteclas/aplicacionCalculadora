@@ -8,6 +8,7 @@ function sumar(){
     if(isNaN(resultado))
     resultado='La operación no incluye números';
     document.getElementById('resultado').innerHTML=`Resultado: ${resultado}`;
+    cambiarImagen.src='/js/suma.png';
     console.log('La suma fue realizada con exito');
     
 }
@@ -20,6 +21,7 @@ function restar(){
     resultado='La operación no incluye números';
     
     document.getElementById('resultado').innerHTML=`Resultado: ${resultado}`;
+    cambiarImagen.src='/js/resta.png';
     console.log('La resta fue realizada con exito');
     
 }
@@ -32,6 +34,7 @@ function multiplicar(){
     resultado='La operación no incluye números';
 
     document.getElementById('resultado').innerHTML=`Resultado: ${resultado}`;
+    cambiarImagen.src='/js/multiplicar.png';
     console.log('La multiplicación fue realizada con exito');
     
 }
@@ -44,6 +47,7 @@ function dividir(){
     resultado='La operación no incluye números';
 
     document.getElementById('resultado').innerHTML=`Resultado: ${resultado}`;
+    cambiarImagen.src='/js/dividir.png';
     console.log('La división fue realizada con exito');
     
 }
